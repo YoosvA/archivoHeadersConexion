@@ -1,0 +1,13 @@
+<?php
+    class Conexion{
+        public function conectar(){
+            return mysqli_connect(
+                'localhost',
+                'root',
+                'root',
+                'angular',
+                '3307'
+            );
+        }
+    }
+?>
